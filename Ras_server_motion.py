@@ -8,10 +8,9 @@ from botocore.exceptions import ClientError
 import logging
 from pyfcm import FCMNotification
 
-APIKEY = "AAAAh4ShnlI:APA91bFJhV__84JTeh2IMVxCgvs8AZMU4DJZYpICqJ6bVCCnsuePGOz16Ok0SEVHTj_XdffgBm_9A4GQxb4rWblyEnyExqflT8WY9CZxv6tpXzTrBsUGqYsoX5ZPA1zijRPi9vsseCtE"
+APIKEY = 
  
-TOKEN = ["etABQmG6TQeUmL6ZkARp_S:APA91bHjloZ2Y_07eC2jex08Vzrd85sk8j1WZAcB_dXTd-MwsPonbHRFHn6WooCU3BjvVNsQ8CK3w9S8QkzkzprL7LQSQqq51BiHjX4FBTwRFzOj8SqR2LFE7YsmHx8MImrGr9MWHviH",
-"dZRLtc8rQmWcxAC4D4Lp64:APA91bEG0lhmVAYMzYeyO61gdqxglAMS4LIt9ym_2K4NHoO1RNNlyrviXx-8puvtdy-isPR8Ku_v-5938YIxE4vRNXg4w0d4tbrZ1l8T_af2G6rS6MmmHoqnGukFvWOQVYu43dAJY9AS"]
+TOKEN = 
  
 s3= boto3.client('s3')
 # haar_face_cascade = cv2.CascadeClassifier('/home/pi/project/opencvlb/data/haarcascades/haarcascade_frontalface_default.xml')
