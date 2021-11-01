@@ -16,7 +16,7 @@ def upload_file(file_name, bucket, object_name=None):
 
     # If S3 object_name was not specified, use file_name
     if object_name is None:
-        object_name = 'video/'+file_name
+        object_name = 'public/'+file_name
 
     # Upload the file
     try:
@@ -27,14 +27,13 @@ def upload_file(file_name, bucket, object_name=None):
     return True
 
 
-
-files = dict(_1KB=[],_10KB=[],_1MB=[],_10MB=[])
-bucket_name= 'yujinbucket01'
+files = dict(video=[],_10KB=[],_1MB=[],_10MB=[])
+bucket_name= 'rascctvfcc104c288914011a034d2bb441de7b742257-staging'
 
 os.chdir("./video")
-for file in glob.glob("*.avi"):
+for file in glob.glob("*.txt"):
     files["_10MB"].append(file)
 
 for key,value in files.items():
     for filename in value:
-        upload_file(filename,bucket_name)
+       upload_file(filename,bucket_name)

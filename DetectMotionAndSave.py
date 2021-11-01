@@ -7,10 +7,10 @@ video = cv2.VideoCapture(0)
 a = 0
 fps = video.get(cv2.CAP_PROP_FPS)
 #코덱 정의 및 videoWriter 개체 생성
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
+fourcc = cv2.VideoWriter_fourcc(*'DIVX')
 
-save_name = time.strftime("%Y-%m-%d-%H시%M분%S초.avi");
-out = cv2.VideoWriter(save_name ,fourcc, 3, (640,480));
+save_name = time.strftime("video/%Y-%m-%d-%H시%M분%S초.mp4");
+out = cv2.VideoWriter(save_name ,fourcc, 3, (640,480),False);
 
 #out = cv2.VideoWriter('output.avi',fourcc, 3, (640,480))
 
