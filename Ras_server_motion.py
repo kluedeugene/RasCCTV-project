@@ -8,7 +8,6 @@ from botocore.exceptions import ClientError
 import logging
 from pyfcm import FCMNotification
 
- 
 APIKEY = "AAAAh4ShnlI:APA91bFJhV__84JTeh2IMVxCgvs8AZMU4DJZYpICqJ6bVCCnsuePGOz16Ok0SEVHTj_XdffgBm_9A4GQxb4rWblyEnyExqflT8WY9CZxv6tpXzTrBsUGqYsoX5ZPA1zijRPi9vsseCtE"
  
 TOKEN = ["etABQmG6TQeUmL6ZkARp_S:APA91bHjloZ2Y_07eC2jex08Vzrd85sk8j1WZAcB_dXTd-MwsPonbHRFHn6WooCU3BjvVNsQ8CK3w9S8QkzkzprL7LQSQqq51BiHjX4FBTwRFzOj8SqR2LFE7YsmHx8MImrGr9MWHviH",
